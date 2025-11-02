@@ -1,0 +1,160 @@
+@media only screen and  (max-width: 575px) {
+
+body{
+        overflow-x:hidden;
+        overflow-y: auto;
+     }
+
+    .navbar-brand img {
+        max-height: 35px;
+        width: auto;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .over {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .comp {
+        flex: 1 1 100%;
+        justify-content: flex-start;
+    }
+
+    .over-text span {
+        font-size: 16px;
+    }
+
+    .over-text p {
+        font-size: 12px;
+    }
+
+
+    .Product-heading,
+    .Product-heading1 {
+        display: none;
+    }
+
+    .footer {
+    height: auto;
+    padding: 50px 15px 20px;
+  }
+
+  .foot {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .terms {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .foot-link {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer ol {
+    gap: 15px;
+  }
+
+  .Copyright {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+.container{
+        overflow: hidden;
+     }
+    
+
+    .navbar-brand img {
+        max-height: 45px;
+        width: auto;
+    }
+
+
+    .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+
+    .carousel-item img {
+        height: 320px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .over {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .comp {
+        flex: 1 1 45%;
+    }
+
+
+    .Product-heading,
+    .Product-heading1 {
+        width: 50%;
+        font-size: 50px;
+        bottom: 15px;
+        left: 10px;
+        text-align: center;
+    }
+
+
+    .footer {
+    height: auto;
+    padding: 70px 20px 20px;
+  }
+
+  .foot {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .terms {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .foot-link {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  footer ol {
+    gap: 15px;
+  }
+
+  .Copyright {
+    margin-top: 35px;
+    font-size: 15px;
+  }
+}

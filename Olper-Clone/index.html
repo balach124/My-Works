@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Olpers Clone</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg sticky-top"
+        style="background-color: #BB0E0E; font-family: 'Bai Jamjuree', sans-serif; font-size: 16px; z-index:1050;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><img src="assest/image/Olpers-Logo.webp" alt=""
+                    class="nav-img"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">recepie</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown">
+                            <li><a class="dropdown-item" href="#flavor-milk">Flavoured Milk</a></li>
+                            <li><a class="dropdown-item" href="#low-fat">High Calcium Low Fat</a></li>
+                            <li><a class="dropdown-item" href="#dairy-cream">Dairy Cream</a></li>
+                            <li><a class="dropdown-item" href="#desi-ghee">Desi Ghee</a></li>
+                            <li><a class="dropdown-item" href="#economy-milk">Economy Milk</a></li>
+                            <li><a class="dropdown-item" href="#cream-milk">Full Cream Milk</a></li>
+                            <li><a class="dropdown-item" href="#milk-powder">Full Cream Milk Powder</a></li>
+                            <li><a class="dropdown-item" href="#tea-creamer">Specialized Tea Creamer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assest/image/Khalis.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assest/image/Olper Fridge Banner.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assest/image/Olper Childern Banner.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assest/image/Olper 2 Childern Banner.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assest/image/Olper Stawberry Flavour Banner.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="overl-all">
+        <div class="over">
+            <div class="comp">
+                <img src="assest/image/8-trolley.svg" alt="" class="over-img">
+                <div class="over-text">
+                    <span><b>Free Shipping</b></span>
+                    <p>over 5000 pakistani rupees</p>
+                </div>
+            </div>
+            <div class="comp">
+                <img src="assest/image/10-credit-card.svg" alt="" class="over-img">
+                <div class="over-text">
+                    <span><b>Secure Checkout</b></span>
+                    <p>Protected by HBL</p>
+                </div>
+            </div>
+            <div class="comp">
+                <img src="assest/image/4-track.svg" alt="" class="over-img">
+                <div class="over-text">
+                    <span><b>Delivery Time</b></span>
+                    <p>72 to 96 Hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="flavor-milk">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Flavoured Milk<h2 class="Product-heading1">__</h2>
+            </span>
+
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Chocolate 180ml FM.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Chocolate 180ml FM</h5>
+                        <p class="card-text">Rs 78</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Chocolate 180ml FM 24PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Chocolate 180ml FM 24 PCs</h5>
+                        <p class="card-text">Rs 1,851</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Strawberry 110ml.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Strawberry 110ml</h5>
+                        <p class="card-text">Rs 293</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Strawberry 180ml FM 24PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Strawberry 180ml FM 24 PCs</h5>
+                        <p class="card-text">Rs 1,851</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Strawberry 180ml FM.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Strawberry 180ml FM</h5>
+                        <p class="card-text"> Rs 78</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Mango FM 180ml.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Mango FM 180ml</h5>
+                        <p class="card-text">Rs 78</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Mango FM 180ml 24PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Mango FM 180ml 24 PCs</h5>
+                        <p class="card-text">Rs 1,851</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Chocolate 110ml.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Chocolate 110ml</h5>
+                        <p class="card-text">Rs 293</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Badam Zafran FM 180ml.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Badam Zafran FM 180ml</h5>
+                        <p class="card-text">Rs 78</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Flavour Milk/Olpers Badam Zafran FM 180ml 24PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Badam Zafran FM 180ml 24 PCs</h5>
+                        <p class="card-text">Rs 1,851</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="low-fat">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>High Calcium Milk<h2 class="Product-heading1">__</h2>
+            </span>
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 1000ml Procal.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 1000ml Procal</h5>
+                        <p class="card-text">Rs 294</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 1000ml Procal 12PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 1000ml Procal 12 PCs</h5>
+                        <p class="card-text">Rs 3,518</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 200ml Procal.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 200ml Procal</h5>
+                        <p class="card-text">Rs 72</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 200ml Procal 24PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 200ml Procal 24 PCs</h5>
+                        <p class="card-text">Rs 1,712</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="dairy-cream">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Dairy Cream<h2 class="Product-heading1">__</h2>
+            </span>
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 1000ml Procal.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Cream 200ml</h5>
+                        <p class="card-text">Rs 193</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 1000ml Procal 12PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Cream 200ml 24 PCs</h5>
+                        <p class="card-text">Rs 4,632</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 200ml Procal.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung Dobala 200ml</h5>
+                        <p class="card-text">Rs 137</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Hight Calcium Milk/Olpers 200ml Procal 24PCs-carton.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung Dobala 200ml 24 PCs</h5>
+                        <p class="card-text">Rs 3,279</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="desi-ghee">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Desi Ghee<h2 class="Product-heading1">__</h2>
+            </span>
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Desi Ghee/Tarka 1kg.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarka 1kg</h5>
+                        <p class="card-text">Out Of Stock</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Desi Ghee/Tarka 500gm Ghee.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarka 500gm Ghee</h5>
+                        <p class="card-text">Out Of Stock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="economy-milk">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Economy Milk<h2 class="Product-heading1">__</h2>
+            </span>
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Economy Milk/Omung 1000ml Low Fat.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung 1000ml Low Fat</h5>
+                        <p class="card-text">Rs 280</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Economy Milk/Omung 1000ml Low Fat 12PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung 1000ml Low Fat 12 PCs</h5>
+                        <p class="card-text">Rs 3,356</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Economy Milk/Omung 1500ml Low Fat.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung 1500ml Low Fat</h5>
+                        <p class="card-text">Rs 373</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Economy Milk/Omung 225ml Low Fat.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung 225ml Low Fat</h5>
+                        <p class="card-text">Rs 66</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Economy Milk/Omung 225ml Low Fat 27PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Omung 225ml Low Fat 27 PCs</h5>
+                        <p class="card-text">Rs 1,762</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cream-milk">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Full Cream Milk<h2 class="Product-heading1">__</h2>
+            </span>
+
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 1000ml Edge.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 1000ml Edge</h5>
+                        <p class="card-text">Rs 325</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 125ml Ecolean.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 125ml Ecolean</h5>
+                        <p class="card-text">Rs 51</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 125ml Ecolean 36PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 125ml Ecolean 36 PCs</h5>
+                        <p class="card-text">Out Of Stock</p>
+
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 1500ml Helicap.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 1500ml Helicap</h5>
+                        <p class="card-text">Rs 474</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 1500ml Helicap 8PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 1500ml Helicap 8 PCs</h5>
+                        <p class="card-text"> Rs 3,785</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 250ml Ecolean.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 250ml Ecolean</h5>
+                        <p class="card-text">Rs 84</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 250ml Ecolean 28PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 250ml Ecolean 28 PCs</h5>
+                        <p class="card-text">Rs 2,331</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 250ml TBA.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 250ml TBA</h5>
+                        <p class="card-text">Rs 84</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 250ml TBA 27PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 250ml TBA 27 PCs</h5>
+                        <p class="card-text">Rs 2,248</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers Elecster 375ml.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Elecster 375ml</h5>
+                        <p class="card-text">Rs 144</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers Elecster 375ml 24PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers Elecster 375ml 24 PCs</h5>
+                        <p class="card-text">Out Of Stock</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Full Cream Milk/Olpers 1000ML edge promo 11+1.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers 1000ML edge promo 11+1</h5>
+                        <p class="card-text">Rs 3,794</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="milk-powder">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Milk Powder<h2 class="Product-heading1">__</h2>
+            </span>
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Milk Powder/Olpers FCMP 390g.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers FCMP 390g</h5>
+                        <p class="card-text">Rs 862</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Milk Powder/Olpers FCMP 800g.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olpers FCMP 800g</h5>
+                        <p class="card-text">Out Of Stock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tea-creamer">
+        <div class="flavor-milk">
+            <span class="wrapped-text">
+                <h2 class="Product-heading">__</h2>Tea Creamer<h2 class="Product-heading1">__</h2>
+            </span>
+            <div class="item-card">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Tea Creamer/Tarang 175ml Ultra Slim.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarang 175ml Ultra Slim</h5>
+                        <p class="card-text">Rs 47</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Tea Creamer/Tarang 175ml Ultra Slim 24PCs-carton.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarang 175ml Ultra Slim 24 PCs</h5>
+                        <p class="card-text">Rs 1,119</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Tea Creamer/Tarang 220ml.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarang 220ml</h5>
+                        <p class="card-text">Rs 56</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assest/image/Tea Creamer/Tarang 220ml 27PCs-carton.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarang 220ml 27 PCs</h5>
+                        <p class="card-text">Rs 1,510</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="foot">
+            <div class="terms">
+                <p class="footer-p">
+                    OlpersMart brings you high-quality dairy <br> products directly from FrieslandCampina <br> Engro
+                    Pakistan.
+                    Explore a wide range of <br> products including flavoured milk, low fat <br> milk, dairy cream, desi
+                    ghee,
+                    Dairy <br> Omung milk, full cream milk, full cream <br> milk powder, and Tarang tea whitener – <br>
+                    all
+                    delivered to your doorstep anywhere <br> in Pakistan.
+                </p>
+                <ol>
+                    <b>Quick Links</b>
+                    <li class="foot-li">Home</li>
+                    <li class="foot-li">Login</li>
+                    <li class="foot-li">Register</li>
+                    <li class="foot-li">Bundle Offers</li>
+                    <li class="foot-li">Blogs</li>
+                    <li class="foot-li">Contact</li>
+                </ol>
+            </div>
+            <div class="footer-link">
+                <p class="contact">+92-332-4978526</p>
+                <p class="contact">support@olpersmart.pk</p>
+                <p class="contact"> 10 AM To 6 PM</p>
+                <p class="contact">Monday to Saturday</p>
+                <p class="contact"> Delivery Lead Time: 72 to 96 Hours</p>
+                <a class="contact" href="#">Youtube</a>
+            </div>
+        </div>
+        <p class="Copyright">Copyright © 2025 OlpersMart. All rights reserved.Powered by Rholab.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

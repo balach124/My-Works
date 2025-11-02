@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.nav-img{
+    width: auto;
+    height: 50px;
+}
+
+
+.custom-dropdown {
+  background-color: #BB0E0E;
+}
+
+.custom-dropdown .dropdown-item {
+  color: white;
+}
+
+
+.custom-dropdown .dropdown-item:hover,
+.custom-dropdown .dropdown-item:focus {
+  color: black;
+  background-color: white;
+}
+
+.carousel-item img {
+  height: 500px;       
+  object-fit: cover;   
+  width: 100%;         
+}
+
+.overl-all {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.over {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 10px 15px;
+    background-color: #cdcece;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    border: solid .5px #a8a8a8;
+    flex-wrap: wrap;
+}
+
+.comp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 250px;
+    min-width: 200px;
+}
+
+.over-img {
+    height: 50px;
+    width: 50px;
+}
+
+.over-text span {
+    font-size: 18px;
+}
+
+.over-text p {
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.wrapped-text{
+    font-family: system-ui,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #BB0E0E;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.Product-heading{
+    width: 20%;
+    font-size: 70px;
+    position: relative;
+    bottom: 20px;
+}
+
+
+.Product-heading1{
+    width: 20%;
+    font-size: 70px;
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+}
+
+
+
+
+
+.item-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+    transition: box-shadow 0.4s ease;
+}
+
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+
+.card-title:hover {
+  color: #BB0E0E;
+  cursor: pointer;
+}
+
+
+.card-text {
+  color: #BB0E0E;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+
+.card .btn {
+  background-color: black;
+  border: none;
+  font-weight: 600;
+}
+
+
+.card .btn:hover {
+  background-color: #BB0E0E;
+  color: white;
+}
+
+
+
+.footer{
+  max-width:1351px;
+  width: 100%;
+  height: 500px;
+  padding: 92px 15px 20px;
+  background-color: #171B2A;
+}
+
+.foot{
+    display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.footer-p{
+  color: white;
+}
+
+.terms{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.foot-link{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.contact{
+  color: white;
+  transition: color 0.4s ease;
+  text-decoration: none;
+}
+.contact:hover{
+  color: #BB0E0E;
+}
+footer ol{
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.foot-li{
+  transition: all 0.3s ease-in-out;
+}
+.foot-li:hover {
+  color: #BB0E0E; 
+  transform: translateX(5px);
+}
+.Copyright{
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(209, 205, 205);
+}

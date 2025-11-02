@@ -1,0 +1,212 @@
+@media only screen and (max-width:768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .donor {
+        flex-direction: column;
+        gap: 0px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .head-img {
+        display: flex;
+        gap: 5px;
+    }
+
+    .b {
+        position: relative;
+        left: 40px;
+    }
+
+    .navmenu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: white;
+        width: 100%;
+        padding: 20px 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: all 0.4s ease;
+    }
+
+    .navmenu.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+        animation: slideDown 0.4s ease;
+    }
+
+    .navmenu li {
+        margin: 12px 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .banner h1 {
+        font-size: 8vw;
+    }
+
+    .banner p {
+        font-size: 5vw;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .input-bar {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .donate-btns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+    }
+
+    .detail {
+        display: flex;
+
+    }
+
+    .detail input {
+        width: 50%;
+    }
+
+    .i {
+        width: 40%;
+    }
+
+    .child-Content {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .child-btn {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .child-btn button {
+        width: 100%;
+        max-width: 300px;
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .icon-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .fund-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fund-img1 {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+        background-position: center;
+        background-size: contain;
+    }
+
+    .fund-img2 {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+        background-position: center;
+        background-size: contain;
+    }
+
+    .fund-img3 {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+        background-position: center;
+        background-size: contain;
+    }
+
+    .b-fund {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .fund-b {
+        width: 250px;
+    }
+
+    .guide-put input {
+        width: 200px;
+    }
+
+    .guide-color button {
+        width: 200px;
+    }
+
+    .foot-panel {
+        height: 800px;
+
+    }
+
+    .foot-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+
+}
